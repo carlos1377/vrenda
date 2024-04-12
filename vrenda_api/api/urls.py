@@ -5,7 +5,7 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 
-router.register(r'flows', views.FlowsViewSet)
+router.register(r'flows', views.FlowsViewSet, basename='flow')
 # router.register(r'health-check', views.health_check)
 
 # urlpatterns = [
